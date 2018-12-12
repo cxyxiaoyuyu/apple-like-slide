@@ -1,0 +1,43 @@
+* {
+    margin: 0;   
+    padding: 0;
+} 
+.gallery {
+    width: 920px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slides {
+    width: 3680px;
+    transition: all 0.3s;
+}
+.slides img {
+    float: left;
+}
+.buttonWrapper {
+    width: 920px;
+    height: 45px;
+    margin: 0 auto;
+    background: #f5f0f0;
+}
+
+.buttons {
+    width: 260px;
+    height: 45px;
+    margin: 0 auto; 
+}
+.buttons .button{
+    float: left;
+    width: 60px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid #ddd; 
+    box-sizing: border-box;
+}
+.buttons .button.active{
+    background: url('./active_bg.png');
+}
+.buttons .button img{
+    padding-top: 8px;
+}
